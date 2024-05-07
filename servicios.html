@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+  font-size: 120%;
+}
+
+.cabecera {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.cabecera h1 {
+  font-size: 50px;
+}
+
+.barranav {
+  overflow: hidden;
+  background-color: #ff9a47;
+}
+
+.barranav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.barranav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.activa {
+  background-color: skyblue;
+}
+        
+.columnaizq {   
+  float: left;
+  width: 75%;
+}
+
+.columnader {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.carta {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.fila::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pie {
+  padding: 20px;
+  text-align: center;
+  background: #ff9a47;
+  color: #f2f2f2;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .columnaizq, .columnader {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .barranav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+<title>Reino de color</title>
+</head>
+<body>
+
+<div class="cabecera">
+  <img src="img/logo2.png" alt="Image" height="400" width="350"> 
+</div>
+
+<!--Barra de navegación-->
+<div class="barranav">
+  <a href="Reino de color web.html">Página principal</a>
+  <a class="activa" href="#servicios">Servicios</a>
+  <a href="reservas.html">Reservas</a>
+  <a href="conocenos.html">Conócenos</a>
+</div>
+
+<!--Cuerpo-->
+<div class="fila">
+  <div class="columnaizq">
+  
+    <div class="carta">
+      <h2><font face="Comic Sans MS,Arial,Verdana">Entrada <font color="red">i</font><font color="orange">n</font><font color="#ffcc00">d</font><font color="green">i</font><font color="blue">v</font><font color="purple">i</font><font color="hotpink">d</font><font color="red">u</font><font color="orange">a</font><font color="#ffcc00">l</font></h2>
+      <p>30€ por 4 horas<font color= red>*</font></p>
+    </div>
+
+    <div class="carta">
+      <h2>Pack <font color=orange>1</font><font color="#ffcc00">5</font> entradas</h2>
+      <p>25€ por persona durante 4 horas<font color= red>*</font>
+</p>
+    </div>
+
+    <div class="carta">
+      <h2>Pack <font color="purple">2</font><font color="hotpink">5</font> entradas</h2>
+      <p>20€ por persona durante 4 horas<font color= red>*</font>
+    </div>
+
+    <div class="carta">
+      <h2>Local <font color="red">c</font><font color="orange">o</font><font color="#ffcc00">m</font><font color="green">p</font><font color="blue">l</font><font color="purple">e</font><font color="hotpink">t</font><font color="red">o</font></h2>
+      <p>1000€; aforo máximo 100 personas (10€ por persona durante 4 horas)
+</p>
+    </div>
+
+    <div class="carta">
+      <p><font color= red>*</font>Solo para menores de <strong>14</strong> años, mayores permitidos unicamente al reservar el <strong>local completo</strong>
+</p>
+    </div>
+
+    <div class="carta">
+      <h2>Instalaciones</h2>
+      <p>Nuevo castillo!! Diseñado especialmente para <strong>Reino de <font color="red">C</font><font color="orange">o</font><font color="#ffcc00">l</font><font color="green">o</font><font color="blue">r</font></strong>.</p>
+      <p><img src="img/tobogan.png" height=600px width=730px>
+</p>
+    </div>
+  </div>
+
+
+<!--Menú navegación-->
+  <div class="columnader">
+<div class="carta">
+      <h2>Contacto</h2>
+      <a href="mailto:erika.airexa@gmail.com"> reinodecolor@gmail.com </a>
+    </div>
+    
+    <div class="carta">
+      <h2>Enlaces al plan de empresa</h2>
+      <img src="img/plan.jpg" height="200" width="400">
+      <li><a href="https://docs.google.com/document/d/1GrPRGRXK5uDO2T6s4qTsbhwbjDNXE5K442xoYER3N2c/edit?usp=sharing">Plan de empresa</a></li>
+      <li><a href="https://docs.google.com/spreadsheets/d/1bs8xO7uGZOaEgCcG_RoMvJ35gUZG-4wf46OcbWYei_Y/edit?usp=sharing">Umbral de rentabilidad</a></li>
+      </p>
+    </div>
+
+    <div class="carta">
+      <h3>Fiestas y eventos infantiles</h3>
+      <img src="img/niños2.jpg" height="400" width="400">
+    </div>
+    <div class="carta">
+      <h3>Redes sociales</h3>
+      <img src="img/rrss/blanco.png" height="35" width="40">
+      <a href="https://www.instagram.com/?hl=en"><img src="img/rrss/ig.png" height="40" width="40"></a>
+      <img src="img/rrss/blanco.png" height="35" width="40">
+      <img src="img/rrss/blanco.png" height="35" width="40">
+      <a href="https://es-es.facebook.com/"><img src="img/rrss/fb.png" height="35" width="35"></a>
+      <img src="img/rrss/blanco.png" height="35" width="40">
+      <img src="img/rrss/blanco.png" height="35" width="40">
+      <a href="https://twitter.com/"><img src="img/rrss/x.png" height="35" width="35"></a>
+      <p><div style="text-align: center;"><strong>@reinodecolor</strong> en todas las redes!!!</div></p>
+    </div>
+  </div>
+</div>
+</font>
+
+<!--Pie-->
+<div class="pie">
+  <h3>Proyecto TIC 3ª Evaluación Érika Varela Hermida 2º Bach B</h3>
+</div>
+
+</body>
+</html>

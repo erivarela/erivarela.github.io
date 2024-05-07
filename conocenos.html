@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+  font-size: 120%;
+}
+
+.cabecera {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.cabecera h1 {
+  font-size: 50px;
+}
+
+.barranav {
+  overflow: hidden;
+  background-color: #ff9a47;
+}
+
+.barranav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.barranav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.activa {
+  background-color: skyblue;
+}
+
+.columnaizq {   
+  float: left;
+  width: 75%;
+}
+
+.columnader {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.carta {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.fila::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pie {
+  padding: 20px;
+  text-align: center;
+  background: #ff9a47;
+  color: #f2f2f2;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .columnaizq, .columnader {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .barranav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+<title>Reino de color</title>
+</head>
+<body>
+
+<div class="cabecera">
+  <img src="img/logo2.png" alt="Image" height="400" width="350"> 
+</div>
+
+<!--Barra de navegación-->
+<div class="barranav">
+  <a href="Reino de color web.html">Página principal</a>
+   <a href="servicios.html">Servicios</a>
+  <a href="reservas.html">Reservas</a>
+  <a class="activa" href="#conocenos">Conócenos</a>
+</div>
+
+<!--Cuerpo-->
+<div class="fila">
+  <div class="columnaizq">
+
+<!--Mapa-->
+    <div class="carta">
+      <h2><font face="Comic Sans MS,Arial,Verdana">¡¡¡Encuéntranos en <font color="red">V</font><font color="#ff9a47">i</font><font color="#ffcc00">n</font><font color="green">c</font><font color="blue">i</font><font color="purple">o</font><font color="hotpink">s</font>!!!</h2>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1243.5848985956675!2d-8.720464406809871!3d42.155421954377196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1710850589954!5m2!1ses!2ses" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+<!--Galería de imágenes-->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <div class="container">
+  <h2>Galería de <font color="red">i</font><font color="#ff9a47">m</font><font color="#ffcc00">á</font><font color="green">g</font><font color="blue">e</font><font color="purple">n</font><font color="hotpink">e</font><font color="red">s</font></h2>
+  <div id="galeria" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="#galeria" data-slide-to="0" class="active"></li>
+      <li data-target="#galeria" data-slide-to="1"></li>
+      <li data-target="#galeria" data-slide-to="2"></li>
+      <li data-target="#galeria" data-slide-to="3"></li>
+      <li data-target="#galeria" data-slide-to="4"></li>
+    </ol>
+
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="img/gal/g1.jpg" alt="Los Angeles" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Reino de <font color="red">C</font><font color="orange">o</font><font color="#ffcc00">l</font><font color="lime">o</font><font color="cyan">r</font> es</h3>
+          <h2><font color="cyan">A Z U L</font></strong></h2>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/gal/g2.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Reino de <font color="red">C</font><font color="orange">o</font><font color="#ffcc00">l</font><font color="lime">o</font><font color="cyan">r</font> es</h3>
+          <h2><font color="lime">V E R D E</font></strong></h2>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="img/gal/g3.jpg" alt="New York" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Reino de <font color="red">C</font><font color="orange">o</font><font color="#ffcc00">l</font><font color="lime">o</font><font color="cyan">r</font> es</h3>
+          <h2><font color="red">N A R A N J A</font></strong></h2>
+        </div>
+      </div>
+  
+   <div class="item">
+        <img src="img/gal/g5.jpg" alt="New York" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Reino de <font color="red">C</font><font color="orange">o</font><font color="#ffcc00">l</font><font color="lime">o</font><font color="cyan">r</font> es</h3>
+          <h2><font color="#ffcc00">A M A R I L L O</font></strong></h2>
+        </div>
+      </div>
+  
+   <div class="item">
+        <img src="img/gal/g4.jpg" alt="New York" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Reino de</h3>
+          <h2><strong><font color="red">C</font><font color="orange"> O</font><font color="#ffcc00"> L</font><font color="lime"> O</font><font color="cyan"> R</font></strong></h2>
+
+        </div>
+      </div>
+  </meta>
+</meta>
+</link>
+    </div>
+
+    <a class="left carousel-control" href="#galeria" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#galeria" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+  </div>
+
+<!--Menú navegación-->
+  <div class="columnader">
+<div class="carta">
+      <h2>Contacto</h2>
+      <a href="mailto:erika.airexa@gmail.com"> reinodecolor@gmail.com </a>
+    </div>
+    
+    <div class="carta">
+      <h2>Enlaces al plan de empresa</h2>
+      <img src="img/plan.jpg" height="200" width="400">
+      <li><a href="https://docs.google.com/document/d/1GrPRGRXK5uDO2T6s4qTsbhwbjDNXE5K442xoYER3N2c/edit?usp=sharing">Plan de empresa</a></li>
+      <li><a href="https://docs.google.com/spreadsheets/d/1bs8xO7uGZOaEgCcG_RoMvJ35gUZG-4wf46OcbWYei_Y/edit?usp=sharing">Umbral de rentabilidad</a></li>
+      </p>
+    </div>
+
+    <div class="carta">
+      <h3>Fiestas y eventos infantiles</h3>
+      <img src="img/niños2.jpg" height="400" width="400">
+    </div>
+    <div class="carta">
+      <h3>Redes sociales</h3>
+      <img src="img/rrss/blanco.png" height="35" width="40">
+      <a href="https://www.instagram.com/?hl=en"><img src="img/rrss/ig.png" height="40" width="40"></a>
+      <img src="img/rrss/blanco.png" height="35" width="40">
+      <img src="img/rrss/blanco.png" height="35" width="40">
+      <a href="https://es-es.facebook.com/"><img src="img/rrss/fb.png" height="35" width="35"></a>
+      <img src="img/rrss/blanco.png" height="35" width="40">
+      <img src="img/rrss/blanco.png" height="35" width="40">
+      <a href="https://twitter.com/"><img src="img/rrss/x.png" height="35" width="35"></a>
+      <p><div style="text-align: center;"><strong>@reinodecolor</strong> en todas las redes!!!</div></p>
+    </div>
+  </div>
+</div>
+</font>
+
+<!--Pie-->
+<div class="pie">
+  <h3>Proyecto TIC 3ª Evaluación Érika Varela Hermida 2º Bach B</h3>
+</div>
+
+</body>
+</html>
